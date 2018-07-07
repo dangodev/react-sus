@@ -1,0 +1,18 @@
+{
+  "extends": [
+    "plugin:react/recommended",
+    "plugin:jsx-a11y/recommended",
+    "prettier",
+    "prettier/react",
+    "airbnb"
+  ],
+  "plugins": ["react", "prettier", "import", "jsx-a11y"],
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures": { "jsx": true }
+  },
+  "rules": {
+    "comma-dangle": [1, "always-multiline"],
+    "react/jsx-filename-extension": 0
+  }
+}
